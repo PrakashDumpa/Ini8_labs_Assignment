@@ -1,0 +1,14 @@
+.parent_container {
+  width: 80%;
+  /* background: red; */
+  padding: 50px;
+  min-height: 100vh;
+}
+.table_body {
+  max-height: 50%;
+  overflow-y: auto;
+}
+.loader {
+  position: absolute;
+  height: 100vh;
+}

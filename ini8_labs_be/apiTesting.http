@@ -1,0 +1,19 @@
+###
+GET http://localhost:4000/getUsers
+
+###
+POST http://localhost:4000/addUser
+Content-Type: "application/json"
+
+{
+    "name":"RadheRadhe",
+    "email":"krishna@gmail.com",
+    "date_of_birth":"2002-02-04",
+    "password":"krishna"
+}
+
+###
+PUT  http://localhost:4000/updateUser
+
+###
+DELETE http://localhost:4000/deleteUser/1
